@@ -113,5 +113,5 @@ The project uses `translated_dataset.csv`, which should be located in the projec
 | Youssef Husseiny | [https://github.com/yuseiff](https://github.com/yuseiff)     |
 | Mohamed Desoky   | [https://github.com/MohamedDesoky22](https://github.com/MohamedDesoky22)   |
 | Samaa Khaled    | [https://github.com/Samaa-khaled411](https://github.com/Samaa-khaled411)   |
-| Habiba Ahmed     |                                      |
+| Habiba Ahmed    |[https://github.com/HabibaAbdElnapy](https://github.com/HabibaAbdElnapy)    |
 
