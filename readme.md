@@ -42,19 +42,20 @@ blurbmatch/
 ├── manage.py
 ├── myproject/
 │ ├── settings.py
-│ ├── urls.py
+│ └── urls.py
 ├── myapp/
 │ ├── views.py
-│ ├── urls.py
+│ └── urls.py
 ├── preprocessing/
 │ ├── model_integration.py
-| ├── preprocessing.ipynb
+│ └── preprocessing.ipynb
 ├── templates/
-│ ├── main.html
+│ └── main.html
 ├── static/
 │ ├── style.css
-| ├──js/
-|   ├──main.js
+│ └── js/
+│ └── main.js
+└── translated_dataset.csv
 ```
 
 *   `manage.py`: Django's command-line utility for administrative tasks.
