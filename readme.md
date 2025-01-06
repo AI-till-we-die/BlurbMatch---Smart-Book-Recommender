@@ -80,7 +80,7 @@ blurbmatch/
 1.  **Clone the repository:**
 
     ```bash
-    git clone https://github.com/your-username/blurbmatch.git
+    git clone https://github.com/AI-till-we-die/BlurbMatch-Smart-Book-Recommender.git
     cd blurbmatch
     ```
 2.  **Create and activate a virtual environment (recommended):**
