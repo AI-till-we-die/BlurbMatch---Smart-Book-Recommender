@@ -2,7 +2,8 @@
 
 ![Screenshot 2025-01-06 195345](https://github.com/user-attachments/assets/a50aa93a-54bf-4552-9751-8a9a305d0ee3)
 
-![Screenshot 2025-01-05 153140](https://github.com/user-attachments/assets/79ed5bec-f440-453b-958c-0e0b9dfabd1c)
+![Screenshot 2025-01-06 195359](https://github.com/user-attachments/assets/0ef238b7-db79-441d-9872-9be4b08fcfaf)
+
 
 
 ## Project Description
