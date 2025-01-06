@@ -37,6 +37,7 @@ The user interface of BlurbMatch is designed to be straightforward and intuitive
 *   **Data:** `translated_dataset.csv` that is a CSV file containing book titles, pre-processed descriptions and original book titles.
 
 ## Project Structure
+```
 blurbmatch/
 ├── manage.py
 ├── myproject/
@@ -54,6 +55,7 @@ blurbmatch/
 │ ├── style.css
 | ├──js/
 |   ├──main.js
+```
 
 *   `manage.py`: Django's command-line utility for administrative tasks.
 *   `myproject/`: The main Django project directory.
