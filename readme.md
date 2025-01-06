@@ -1,5 +1,8 @@
 # BlurbMatch - Smart Book Recommender
 
+![Screenshot 2025-01-05 153140](https://github.com/user-attachments/assets/79ed5bec-f440-453b-958c-0e0b9dfabd1c)
+
+
 ## Project Description
 
 BlurbMatch is a web-based book recommender system that leverages Natural Language Processing (NLP) techniques to provide users with relevant book suggestions. Instead of relying on full, often lengthy, book descriptions, BlurbMatch focuses on analyzing the concise book blurbs found on the back cover. By extracting key features like character details and the main conflict from these blurbs, our system efficiently identifies books that share similar themes and narrative elements, offering a fast and relevant recommendation experience.

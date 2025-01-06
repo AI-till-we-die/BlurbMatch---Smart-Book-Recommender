@@ -1,0 +1,84 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    {% load static %}
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>BlurbMatch - Smart Book Recommendations</title>
+    <link rel="stylesheet" href="{% static 'style.css' %}">
+</head>
+<body>
+    <header>
+        <nav>
+            <div class="logo">BlurbMatch</div>
+            <ul>
+                <li><a href="#features">Features</a></li>
+                <li><a href="#try-it">Try It</a></li>
+                <li><a href="#how-it-works">How It Works</a></li>
+            </ul>
+        </nav>
+    </header>
+
+    <main>
+        <section class="hero">
+            <div class="hero-content">
+                <h1>Discover Your Next Read</h1>
+                <p>Using advanced NLP technology to match books based on their essence, not just their genre.</p>
+                <a href="#try-it" class="cta-button">Try It Now</a>
+            </div>
+        </section>
+
+        <section id="try-it" class="recommender">
+            <div class="container">
+                <h2>Find Similar Books</h2>
+                <div class="form-container">
+                    <form id="blurb-form" method="POST">
+                        {% csrf_token %}
+                        <div class="form-group">
+                            <label for="blurb">Write your book blurb</label>
+                            <textarea 
+                                id="blurb" 
+                                placeholder="Paste the book's blurb here to find similar books..."
+                                rows="6"
+                            ></textarea>
+                        </div>
+                        <button type="submit" class="submit-button">
+                            <span class="button-text">Find Similar Books</span>
+                            <div class="button-loader"></div>
+                        </button>
+                    </form>
+                    <div id="results" class="results-container"></div>
+                </div>
+            </div>
+        </section>
+
+        <section id="how-it-works" class="features">
+            <div class="container">
+                <h2>How It Works</h2>
+                <div class="feature-grid">
+                    <div class="feature-card">
+                        <h3>Smart Analysis</h3>
+                        <p>Our NLP engine analyzes book blurbs to identify key story elements, characters, and themes.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Efficient Processing</h3>
+                        <p>Using concise blurbs allows for faster processing while maintaining recommendation quality.</p>
+                    </div>
+                    <div class="feature-card">
+                        <h3>Accurate Matching</h3>
+                        <p>Find books with similar narrative elements and themes, beyond simple genre matching.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer>
+        <div class="container">
+            <p>© 2024 BlurbMatch. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <script src="{% static 'js/main.js' %}"></script>
+</body>
+</html>
